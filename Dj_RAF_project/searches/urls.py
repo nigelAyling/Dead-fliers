@@ -5,6 +5,7 @@ app_name = 'searches'
 
 urlpatterns = [
     path('',views.search_list,name='list'),
-    path('data/create', views.CreateView),
+    path('create', views.CreateView),
+    
     
 ]
