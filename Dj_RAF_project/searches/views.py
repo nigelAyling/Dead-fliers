@@ -21,3 +21,4 @@ def CreateView(request):
         return render(request,'searches/create.html',context)
 
 
+
